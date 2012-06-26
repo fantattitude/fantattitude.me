@@ -1,0 +1,19 @@
+#flip-container {
+	-webkit-perspective: none;
+}
+#flip-card {
+	-webkit-transform-style: none;
+	-webkit-transition: none;
+}
+#flip-card.flipped {
+	-webkit-transform: none;
+ }
+.face {
+	-webkit-backface-visibility: none;
+}
+
+.face.back {
+	display: none;
+	-webkit-transform: none;
+	-webkit-box-sizing: none;
+}
