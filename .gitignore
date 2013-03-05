@@ -1,2 +1,4 @@
 .DS_Store
 *.swp
+vendor/bundle/
+.sass-cache/
