@@ -22,7 +22,7 @@ set :deploy_to, "/srv/http/fantattitude.me"
 namespace :deploy do
 	desc "Start unicorn"
 	task :start do
-		run "cd #{deploy_to}/current && bundle exec rake assets && bundle exec unicorn -D -c config/unicorn.rb"
+		run "cd #{deploy_to}/current && bundle install && bundle exec rake assets && bundle exec unicorn -D -c config/unicorn.rb"
 	end
 	desc "Stop unicorn"
 	task :stop do
@@ -30,7 +30,7 @@ namespace :deploy do
 	end
 	task :restart do
 		run "cd #{deploy_to}/current && kill -s \"QUIT\" `cat tmp/pids/unicorn.pid`"
-		run "cd #{deploy_to}/current && bundle exec rake assets && bundle exec unicorn -D -c config/unicorn.rb"
+		run "cd #{deploy_to}/current && bundle install && bundle exec rake assets && bundle exec unicorn -D -c config/unicorn.rb"
 	end
 end
 
