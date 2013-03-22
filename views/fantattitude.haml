@@ -1,12 +1,123 @@
 !!!
-%html
+%html{:lang => "en"}
   %head
-    %meta{:charset => 'UTF-8'}
-    %title Vivien Leroy is an IT engineer
-    %link{:rel => 'stylesheet', :href => '/style.css'}
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "width=device-width", :name => "viewport"}/
+    %meta{:content => "initial-scale=1.0", :name => "viewport"}/
+    %title Vivien Leroy
+    %link{:href => "style.css", :rel => "stylesheet", :type => "text/css"}/
   %body
-    %h1
-      Vivien Leroy is a damn IT engineer !
-    %p
-      He loves eating pancakes. And that's fucking everything.
-      He has BLOG.
+    %header
+      #header_text.text
+        %h1 Vivien Leroy
+        %p Software engineer
+      .overlay
+    #social
+      %a#twitter{:href => "http://twitter.com/Fantattitude"}> 
+      %a#github{:href => "http://github.com/Fantattitude"}> 
+      %a#dribbble{:href => "http://dribbble.com/Fantattitude"}> 
+      %a#lastfm{:href => "http://last.fm/user/Fantattitude"}> 
+    #presentation
+      %h2 Vivien has an intense passion for computers.
+      %p Be it development or system administration, Vivien always had this need to tinker with its computers. He also enjoys good ui/ux design and can’t help but stay hours long on design blogs and sites. He graduated as an IT engineer late 2012 and work since then as a web project manager at Lemon Interactive, some cute web agency from north of France.
+    .separator
+    #build
+      %h2 He builds apps and websites for the masses.
+      %pre
+        :preserve
+          def parse! arguments=ARGV, defaults=@defaults
+              @defaults.dup.tap do |options|
+                OptionParser.new do |parser|
+                  parser.banner = "Usage: mailcatcher [options]"
+                  parser.version = VERSION
+          
+                  parser.on("--ip IP", "Set the ip address of both servers") do |ip|
+                    options[:smtp_ip] = options[:http_ip] = ip
+                  end
+          
+                  parser.on("--smtp-ip IP", "Set the ip address of the smtp server") do |ip|
+                    options[:smtp_ip] = ip
+                  end
+          
+                  parser.on("--smtp-port PORT", Integer, "Set the port of the smtp server") do |port|
+                    options[:smtp_port] = port
+                  end
+          
+                  parser.on("--http-ip IP", "Set the ip address of the http server") do |ip|
+                    options[:http_ip] = ip
+                  end
+          
+                  parser.on("--http-port PORT", Integer, "Set the port address of the http server") do |port|
+                    options[:http_port] = port
+                  end
+          
+                  if mac?
+                    parser.on("--[no-]growl", "Growl to the local machine when a message arrives") do |growl|
+                      if growl and not growlnotify?
+                        puts "You'll need to install growlnotify from the Growl installer."
+                        puts
+                        puts "See: http://growl.info/extras.php#growlnotify"
+                        exit!
+                      end
+          
+                      options[:growl] = growl
+                    end
+                  end
+          
+                  unless windows?
+                    parser.on('-f', '--foreground', 'Run in the foreground') do
+                      options[:daemon] = false
+                    end
+                  end
+          
+                  if browse?
+                    parser.on('-b', '--browse', 'Open web browser') do
+                      options[:browse] = true
+                    end
+                  end
+          
+                  parser.on('-v', '--verbose', 'Be more verbose') do
+                    options[:verbose] = true
+                  end
+          
+                  parser.on('-h', '--help', 'Display this help information') do
+                    puts parser
+                    exit!
+                  end
+                end.parse!
+              end
+            end
+      .browser
+        .bar
+          /
+          .left
+          /
+          .right
+          /
+          .mid
+        .content
+          .left
+          .right
+          .mid
+            %p
+              And I do it well using top notch technologies such as
+              %span{"data-typer-targets" => "{ \"targets\" : [\"Ruby on Rails, HTML5, CSS3, Javascript\", \"PHP, (x)HTML, CSS, Javascript\", \"Cocoa, Objective-C\"]}"} Ruby on Rails, HTML5, CSS3, Javascript
+              and more…
+        .bottom
+    .separator
+    #portfolio
+      #pokecenter
+        %div
+          .text
+            %h2 Pokécenter
+            %p His first experience with iOS, where he learnt about Cocoa Touch and developed his skills. Also his first time using a ßeta distribution platform, here TestFlight. Not released.
+          .image
+            %img{:alt => "Pokecenter.app screenshot", :src => "pokecenter.png"}/
+    %footer
+      Made on a
+      %span 
+      using Sketch.app & Espresso.
+    %script{:src => "retina.js", :type => "text/javascript"}
+    %script{:src => "jquery.js", :type => "text/javascript"}
+    %script{:src => "jquery.typer.js", :type => "text/javascript"}
+    %script{:src => "script.js", :type => "text/javascript"}
