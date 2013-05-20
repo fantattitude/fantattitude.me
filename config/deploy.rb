@@ -1,3 +1,5 @@
+require "bundler/capistrano"
+
 set :application, "fantattitude.me"
 set :repository,  "git@fantattitude.me:fantattitude.git"
 
