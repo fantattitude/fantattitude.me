@@ -1,7 +1,7 @@
 require "bundler/capistrano"
 
 set :application, "fantattitude.me"
-set :repository,  "git@fantattitude.me:fantattitude/fantattitude.git"
+set :repository,  "git@fantattitude.me:fantattitude.git"
 
 set :scm, :git
 set :deploy_via, :remote_cache
