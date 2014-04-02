@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='width=device-width' name='viewport'>
+    <meta content='initial-scale=1.0' name='viewport'>
+    <title>{{ page.title }}</title>
+    <meta content='Vivien Leroy is an iOS developer from France, this is his website.' name='description'>
+    <meta content='Vivien Leroy' name='author'>
+    <link href='/favicon.ico' rel='shortcut icon'>
+    <link href='/style/style.css' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <header>
+      <div class='text' id='header{{ page.animation }}'>
+        <h1>Vivien Leroy</h1>
+        <p>
+          Software engineer<a href='http://fantattitude.me/resources/vivien.vcf' id='vcard'>&#xe002;</a></p>
+      </div>
+      <div class='overlay'></div>
+    </header>
+    <div id='social'><a {% unless page.blog == true %}class='active'{% endunless %} href='http://fantattitude.me' id='bio'>&#xe000;</a><a {% if page.blog == true %}class='active'{% endif %} href='http://blog.fantattitude.me' id='blog'>&#xe001;</a><a href='http://twitter.com/Fantattitude' id='twitter'>&#xf309;</a><a href='http://github.com/Fantattitude' id='github'>&#xf300;</a><a href='http://dribbble.com/Fantattitude' id='dribbble'>&#xf31b;</a><a href='http://last.fm/user/Fantattitude' id='lastfm'>&#xf321;</a></div>
+    
+    {{ content }}
+
+    <footer>
+      Made on a
+      <span></span>
+      using Sketch.app &amp; Vim.
+    </footer>
+    <script src='/script/retina.js' type='text/javascript'></script>
+    <script src='/script/script.js' type='text/javascript'></script>
+  </body>
+</html>

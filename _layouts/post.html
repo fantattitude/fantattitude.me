@@ -1,0 +1,19 @@
+---
+layout: default
+blog: true
+--- 
+
+<article class='color{{ page.color }} post'>
+	<h2 class='post_title'>
+		<a href='{{ page.url }}'>{{ page.title }}</a>
+		<span class='detail'>
+			by {{ page.author }} and wrote
+			<span title='{{ page.date | date_to_rfc822 }}'>
+				{{ page.date | date_to_long_string }}
+			</span>
+		</span>
+	</h2>
+	<div class='contenu'>
+		{{ content }}
+	</div>
+</article>
