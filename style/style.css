@@ -373,6 +373,14 @@ article.post .contenu ul, article.post .contenu ol {
   max-width: 800px;
 }
 
+article.post .contenu .highlight{
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: left;
+}
+
 
 article.post .contenu p {
   text-align: left;
@@ -389,20 +397,6 @@ article.post .contenu p a {
   vertical-align: top;
   color: #bc0100;
   font-weight: bold;
-  -webkit-perspective: 600px;
-  -moz-perspective: 600px;
-  -ms-perspective: 600px;
-  -o-perspective: 600px;
-  perspective: 600px;
-  -webkit-perspective-origin: 50% 50%;
-  -moz-perspective-origin: 50% 50%;
-  -ms-perspective-origin: 50% 50%;
-  -o-perspective-origin: 50% 50%;
-  perspective-origin: 50% 50%;
-}
-
-
-article.post .contenu p a:hover {
   text-decoration: none;
 }
 
@@ -411,54 +405,7 @@ article.post .contenu p a span {
   display: block;
   position: relative;
   padding: 0 2px;
-  -webkit-transition: all 400ms ease;
-  -moz-transition: all 400ms ease;
-  -o-transition: all 400ms ease;
-  transition: all 400ms ease;
-  -webkit-transform-origin: 50% 0%;
-  -moz-transform-origin: 50% 0%;
-  -ms-transform-origin: 50% 0%;
-  -o-transform-origin: 50% 0%;
-  transform-origin: 50% 0%;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  -o-transform-style: preserve-3d;
-  transform-style: preserve-3d;
 }
-
-
-article.post .contenu p a:hover span {
-  background: #dd4d42;
-  -webkit-transform: translate3d(0px, 0px, -30px) rotateX(90deg);
-  -moz-transform: translate3d(0px, 0px, -30px) rotateX(90deg);
-  -ms-transform: translate3d(0px, 0px, -30px) rotateX(90deg);
-  -o-transform: translate3d(0px, 0px, -30px) rotateX(90deg);
-  transform: translate3d(0px, 0px, -30px) rotateX(90deg);
-}
-
-
-article.post .contenu p a span:after {
-  content: attr(data-title);
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  padding: 0 2px;
-  color: white;
-  background: #bc0100;
-  -webkit-transform-origin: 50% 0%;
-  -moz-transform-origin: 50% 0%;
-  -ms-transform-origin: 50% 0%;
-  -o-transform-origin: 50% 0%;
-  transform-origin: 50% 0%;
-  -webkit-transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
-  -moz-transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
-  -ms-transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
-  -o-transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
-  transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
-}
-
 
 article.post .contenu p img {
   text-align: center;

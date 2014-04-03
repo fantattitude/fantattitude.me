@@ -4,7 +4,7 @@ title:  "Daft Punk - Get Lucky full version"
 author: "Vivien Leroy"
 date:   2013-04-15 01:00:00
 categories: daft-punk 
-color: 4
+color: 3
 ---
 
 A little gem just aired on french radio Fun Radio : 

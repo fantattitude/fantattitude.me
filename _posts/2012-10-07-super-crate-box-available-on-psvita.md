@@ -4,7 +4,7 @@ title:  "Super Crate Box available on PSVita"
 author: "Vivien Leroy"
 date:   2012-10-07 01:00:00
 categories: psvita game super-crate-box
-color: 1
+color: 0
 ---
 
 I'm a huge fan of [Vlambeer](http://www.vlambeer.com) productions.
