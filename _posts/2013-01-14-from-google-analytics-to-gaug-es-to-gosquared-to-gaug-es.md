@@ -4,7 +4,7 @@ title:  "From Google Analytics to gaug.es to GoSquared to gaug.es"
 author: "Vivien Leroy"
 date:   2013-01-14 01:00:00
 categories: mail imap duplicates
-color: 3
+color: 1
 ---
 
 I'm a **data nerd**.
