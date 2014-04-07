@@ -11,7 +11,7 @@ I'm a huge fan of [Vlambeer](http://www.vlambeer.com) productions.
 
 As they themselves say, they bring back the good old arcade among our over complex game experiences.
 
-![Super Crate Box on PSVita](/images{{ page.id }}/super-crate-box.jpg)
+{%image /super-crate-box.jpg %}
 
 Back in 2010, they released [Super Crate Box](http://supercratebox.com) which is a fast paced arcade pixel styled amazing game praised by critics because of it's efficient concept and really good game design.
 

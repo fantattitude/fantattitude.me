@@ -4,7 +4,7 @@ title:  "From Google Analytics to gaug.es to GoSquared to gaug.es"
 author: "Vivien Leroy"
 date:   2013-01-14 01:00:00
 categories: mail imap duplicates
-color: 1
+color: 2
 ---
 
 I'm a **data nerd**.
@@ -15,7 +15,7 @@ And then ? Then I LOVE web analytics services <3. And I tried three of them, and
 
 There's one service everyone knows about and it must be the biggest existing, [Google Analytics](http://analytics.google.com).
 
-![Logo Google Analytics](/images{{ page.id }}/google-analytics.png)
+{%image /google-analytics.png %}
 
 It's everybodys favorite web analytics service and it offers for free a lot of awesome functionnalities. Yet it's fucking cluttered with useless informations and configurations. It's a **real mess**.
 
@@ -23,7 +23,7 @@ Yet it offers so much possibilities that most people could not live without it b
 
 Later I discovered [gaug.es](http://gaug.es), it's another analytics service with a different philosophy by the amazing guys at [GitHub](http://github.com).
 
-![Logo gaug.es](/images{{ page.id }}/gauges.png)
+{%image /gauges.png %}
 
 It wants you to have all your important data one click away (where **Google Analytics** shows you lot of useless crap in lots of different places). It's also well designed and way more clear.
 
@@ -34,7 +34,7 @@ When, like me, you are unpopular and shit, this seems like a pretty fair deal !
 
 Lately I heard a lot of good things about [GoSquared](http://gosquared.com), another kid in the web analytics playground and I couldn't resist to give it a try. It seemed well designed like **gaug.es** but with way more features and a really godlike *Dashboard*.
 
-![Logo GoSquared](/images{{ page.id }}/gosquared.jpg)
+{%image /gosquared.jpg %}
 
 Let's be honest I was disappointed. The aforementioned *Dashboard* just didn't work with me, and the lack of an iOS official app (which I forgot to mention but **gaug.es** had) is something hard for me to tolerate… But sure it has amazing features !
 

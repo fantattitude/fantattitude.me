@@ -4,12 +4,12 @@ title:  "Deal with mail duplicates using IMAP protocol"
 author: "Vivien Leroy"
 date:   2012-11-16 01:00:00
 categories: mail imap duplicates
-color: 2
+color: 1
 ---
 
 My school, [Supinfo](http://supinfo.com/), is using Microsoft's solution for businesses and institutions to provide its students with email addresses. So we basically have **live.com** email but with **@supinfo.com** domain and without the fancy new UI of the webmail :(.
 
-![Awful Outlook web app](/images{{ page.id }}/mailbox.png)
+{%image /mailbox.png %}
 
 I came to realize some months ago that my account was full (even though it's supposed to be able to handle 10GB of datas). When I checked, my account was full of duplicate emails, I'm not sure about it but I think this is related to the fact I like to test loads of email clients and maybe I messed with one taking me to go from 4.000 mails to 72.000 mails (huge difference right :P ?).
 
@@ -35,7 +35,7 @@ And it fucking does its job.
 
 One amazing thing is even at the end it didn't slow down because of the number of emails it had to care about it was really impressive. 
 
-![YEAH SPAAAACE](/images{{ page.id }}/quota.png)
+{%image /quota.png %}
 
 In my case it took I think approximately 4 or 5 hours to complete (72k mails is a HUUUGE amount), and from now on I'm the proud (errr not really in fact) owner of a freed from duplicates live.com account.
 
