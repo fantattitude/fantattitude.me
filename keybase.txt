@@ -1,0 +1,77 @@
+==================================================================
+https://keybase.io/fantattitude
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://fantattitude.me
+  * I am fantattitude (https://keybase.io/fantattitude) on keybase.
+  * I have a public key with fingerprint 8EF6 E7FA 825D E73F 061D  7CE5 418A 5800 481C 8BB3
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.4.9"
+        },
+        "key": {
+            "fingerprint": "8ef6e7fa825de73f061d7ce5418a5800481c8bb3",
+            "host": "keybase.io",
+            "key_id": "418A5800481C8BB3",
+            "uid": "9813b3b15dfa1cd263449ba928cc0400",
+            "username": "fantattitude"
+        },
+        "merkle_root": {
+            "ctime": 1403602212,
+            "hash": "93795df99fb432892a4beb5271f4b8fa7fd4ba94c57567eb4fdb3c8a6a6b2cb0a0e3b16492bb86c303d16c8739d45a0170121875bc6ce34cfd1afeb6eda927b6",
+            "seqno": 22805
+        },
+        "service": {
+            "hostname": "fantattitude.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1403602312,
+    "expire_in": 157680000,
+    "prev": "d85c241a37644679abc9d2c08b75381a57c1252762daf3b57daa7d6ed0e34e3c",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owFtUn9oVVUcf08t5yTsBzOzWfOgUDCe59e959wnEk4WQeAyDTXQx/l1t+u2e9/u
+vZuNKaTCmIswlm3+EblQkQqDh9QfWSSPsWAj/4pEhCVBxLMUZ1BOUTp3LErov/Pj
+cz6/vue9xxbn6vObh3flXml853x+uiZz2z9pPToAZKT7QXEAqK7AhGm2CkW3AUXQ
+afqlSEwhiJrCSJvCvqRpAdMM+kycBFFoUbBACx442JzBs8d+ELabuBwHGRfgxncN
+8wXHjjaM+NBFminjUMSFwyGkHCkuJbGUHVGSPqQK5jlLgbanFr95Ab+Ft7Rk+N75
+C48jIolEjvYFUhq7hFJPCg9zpSCFMAMmJl6I5IswFWkapL3aZJ67TdzZZUpxFM0H
+V2mQwRCFxIUYI2xdiaQjkyHMsxKe50tKMPewoNJIBzPkU8l9wXxNrSpVDnNcZiT1
+tSSKC1e4EisJBTTWpEs9LCV3FYFEI1dxRjxNHQERgwgjzhypXGUIVb5GwjfSNdpG
+YdK1MRLTE0agiDGHzsFsG/cFymS2s+b+J2DBnjSDchylkYq67GVHmpaLWey0v2zA
++SLYb2Rpgackg1Db0f13tshCH66EZJWYt8pBbEpBhnCYa6cCYaZj+qyG5o7CFAnC
+XEpd5gmpPI0V5JI5hCPhMIWw7c3FWvhEOkwLwbTNaQuihqh/g3rWp2i3lEnQHoq0
+N7YTO5pvXJLL1+cefWRR9nlz9cse/+dH127X5UbjFev3vpR/sbJmw9mBsW09lzbN
+Pfna1L2RywOzldrvP4Cp6h8X+m79OPLnbx9eO3f1lDfcffyF0703hrfu5+PquYmp
+Lxv8w5Xvz9zc3r145epfDrR9+/aukV+/OzK95ErnmtHqhcsda9e3TT7x04bJtp2v
+vv402J0OzaBrK07fv/duZ9PdnrtXl3JxO9nx/sWfAZuI77Q0DFWubJpZPkiPTK/9
+YnR8UXX37FRdY8NXgyh/8dlnrh+vzlVaPgpO7ql8UPBe/nSjAF+3vnlyaQhnltfy
+d04MrS7ObTu0ddng80/tOfPNpb3Vjx8cbv68NvbXgTcmNu6YXHcoHDtR17ZzdrwV
+f3Zs9D6oX9X0Nw==
+=4acq
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/fantattitude
+
+==================================================================
