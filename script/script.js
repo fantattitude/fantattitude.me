@@ -12,11 +12,11 @@ function PrefixedEvent(element, type, callback)
 var a = document.createElement('audio');
 if(!!(a.canPlayType && a.canPlayType('audio/mpeg;').replace(/no/, '')))
 {
-	var snd = new Audio('resources/gb.mp3');
+	var snd = new Audio('/resources/gb.mp3');
 }
 else
 {
-	var snd = new Audio('resources/gb.ogg');
+	var snd = new Audio('/resources/gb.ogg');
 }
 
 snd.addEventListener('ended', function(event)

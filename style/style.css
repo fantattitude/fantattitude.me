@@ -5,10 +5,49 @@
   margin: 0;
   padding: 0; }
 
+@font-face{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: local('SourceSansPro-Regular'),
+         local('Source Sans Pro'),
+         url('../ressources/SourceSansPro-Regular.eot') format('embedded-opentype'),
+         url('../ressources/SourceSansPro-Regular.otf.woff') format('woff'),
+         url('../ressources/SourceSansPro-Regular.otf') format('opentype'),
+         url('../ressources/SourceSansPro-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    src: local('SourceSansPro-It'),
+         local('Source Sans Pro'),
+         url('../ressources/SourceSansPro-It.eot') format('embedded-opentype'),
+         url('../ressources/SourceSansPro-It.otf.woff') format('woff'),
+         url('../ressources/SourceSansPro-It.otf') format('opentype'),
+         url('../ressources/SourceSansPro-It.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    src: local('SourceSansPro-Bold'),
+         local('Source Sans Pro Bold'),
+         url('../ressources/SourceSansPro-Bold.eot') format('embedded-opentype'),
+         url('../ressources/SourceSansPro-Bold.otf.woff') format('woff'),
+         url('../ressources/SourceSansPro-Bold.otf') format('opentype'),
+         url('../ressources/SourceSansPro-Bold.ttf') format('truetype');
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: "Avenir Next", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: bold;
   font-size: 16px;
   text-align: center;
@@ -412,7 +451,7 @@ border-radius: 8px;
 margin: 20px auto;
 }
 
-article.post .contenu p.images,article.post .contenu p.iframes {
+article.post .contenu p.images, article.post .contenu p.iframes {
 text-align:center;
 font-size:12px;
 margin:30px auto;
