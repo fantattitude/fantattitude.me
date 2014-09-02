@@ -2,4 +2,4 @@ name: Vivien Leroy is Fantattitude
 markdown: redcarpet
 highlighter: pygments
 permalink: /:title
-
+exclude: ['vendor']
