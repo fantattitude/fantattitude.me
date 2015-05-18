@@ -5,12 +5,12 @@ animation: _text
 ---
 
 <div id='presentation'>
-	<h2>Vivien has an intense passion for computers.</h2>
-	<p>Be it development or system administration, Vivien always had this need to tinker with his computers. He also enjoys good ui/ux design and can’t help but stay hours long on design blogs and sites. He graduated as an IT engineer late 2012, worked as a web project manager at Lemon Interactive and is now iOS developer for AXA France.</p>
+	<h2>I have an intense passion for computers.</h2>
+	<p>Be it development or system administration, I always had this need to tinker with my computers. I also enjoy good ui/ux design and can’t help but stay hours long on design blogs and sites. I graduated as an IT engineer late 2012, worked as a web project manager at Lemon Interactive, as an iOS developer at AXA France and now am iOS lead developer at Oxygem.</p>
 </div>
 <div class='separator'></div>
 <div id='build'>
-	<h2>He builds apps and websites for the masses.</h2>
+	<h2>I builds apps &amp; websites for the masses.</h2>
 	<pre>def parse! arguments=ARGV, defaults=@defaults&#x000A;    @defaults.dup.tap do |options|&#x000A;      OptionParser.new do |parser|&#x000A;        parser.banner = "Usage: mailcatcher [options]"&#x000A;        parser.version = VERSION&#x000A;&#x000A;        parser.on("--ip IP", "Set the ip address of both servers") do |ip|&#x000A;          options[:smtp_ip] = options[:http_ip] = ip&#x000A;        end&#x000A;&#x000A;        parser.on("--smtp-ip IP", "Set the ip address of the smtp server") do |ip|&#x000A;          options[:smtp_ip] = ip&#x000A;        end&#x000A;&#x000A;        parser.on("--smtp-port PORT", Integer, "Set the port of the smtp server") do |port|&#x000A;          options[:smtp_port] = port&#x000A;        end&#x000A;&#x000A;        parser.on("--http-ip IP", "Set the ip address of the http server") do |ip|&#x000A;          options[:http_ip] = ip&#x000A;        end&#x000A;&#x000A;        parser.on("--http-port PORT", Integer, "Set the port address of the http server") do |port|&#x000A;          options[:http_port] = port&#x000A;        end&#x000A;&#x000A;        if mac?&#x000A;          parser.on("--[no-]growl", "Growl to the local machine when a message arrives") do |growl|&#x000A;            if growl and not growlnotify?&#x000A;              puts "You'll need to install growlnotify from the Growl installer."&#x000A;              puts&#x000A;              puts "See: http://growl.info/extras.php#growlnotify"&#x000A;              exit!&#x000A;            end&#x000A;&#x000A;            options[:growl] = growl&#x000A;          end&#x000A;        end&#x000A;&#x000A;        unless windows?&#x000A;          parser.on('-f', '--foreground', 'Run in the foreground') do&#x000A;            options[:daemon] = false&#x000A;          end&#x000A;        end&#x000A;&#x000A;        if browse?&#x000A;          parser.on('-b', '--browse', 'Open web browser') do&#x000A;            options[:browse] = true&#x000A;          end&#x000A;        end&#x000A;&#x000A;        parser.on('-v', '--verbose', 'Be more verbose') do&#x000A;          options[:verbose] = true&#x000A;        end&#x000A;&#x000A;        parser.on('-h', '--help', 'Display this help information') do&#x000A;          puts parser&#x000A;          exit!&#x000A;        end&#x000A;      end.parse!&#x000A;    end&#x000A;  end</pre>
 	<div class='browser'>
 		<div class='bar'><!--
@@ -36,7 +36,7 @@ animation: _text
 		<div>
 			<div class='text'>
 				<h2>Pokécenter</h2>
-				<p>His first experience with iOS, where he learnt about Cocoa Touch and developed his skills. Also his first time using a ßeta distribution platform, here TestFlight. Not released.</p>
+				<p>It was my first experience with iOS, where I learnt about Cocoa Touch and developed my skills. Also my first time using a ßeta distribution platform, here TestFlight (way before it was acquired by Apple). Not released.</p>
 			</div>
 			<div class='image'>
 				<img alt='Pokecenter.app screenshot' height='804px' src='/resources/pokecenter.png' width='963px'>
