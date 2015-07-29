@@ -11,21 +11,21 @@
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
-  src: local('SourceSansPro-Regular'), local('Source Sans Pro'), url('../ressources/SourceSansPro-Regular.eot') format('embedded-opentype'), url('../ressources/SourceSansPro-Regular.otf.woff') format('woff'), url('../ressources/SourceSansPro-Regular.otf') format('opentype'), url('../ressources/SourceSansPro-Regular.ttf') format('truetype');
+  src: local('SourceSansPro-Regular'), local('Source Sans Pro'), url('../resources/SourceSansPro-Regular.eot') format('embedded-opentype'), url('../resources/SourceSansPro-Regular.woff') format('woff'), url('../resources/SourceSansPro-Regular.otf') format('opentype'), url('../resources/SourceSansPro-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Source Sans Pro';
   font-weight: 400;
   font-style: italic;
   font-stretch: normal;
-  src: local('SourceSansPro-It'), local('Source Sans Pro'), url('../ressources/SourceSansPro-It.eot') format('embedded-opentype'), url('../ressources/SourceSansPro-It.otf.woff') format('woff'), url('../ressources/SourceSansPro-It.otf') format('opentype'), url('../ressources/SourceSansPro-It.ttf') format('truetype');
+  src: local('SourceSansPro-It'), local('Source Sans Pro'), url('../resources/SourceSansPro-It.eot') format('embedded-opentype'), url('../resources/SourceSansPro-It.woff') format('woff'), url('../resources/SourceSansPro-It.otf') format('opentype'), url('../resources/SourceSansPro-It.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Source Sans Pro';
   font-weight: 700;
   font-style: normal;
   font-stretch: normal;
-  src: local('SourceSansPro-Bold'), local('Source Sans Pro Bold'), url('../ressources/SourceSansPro-Bold.eot') format('embedded-opentype'), url('../ressources/SourceSansPro-Bold.otf.woff') format('woff'), url('../ressources/SourceSansPro-Bold.otf') format('opentype'), url('../ressources/SourceSansPro-Bold.ttf') format('truetype');
+  src: local('SourceSansPro-Bold'), local('Source Sans Pro Bold'), url('../resources/SourceSansPro-Bold.eot') format('embedded-opentype'), url('../resources/SourceSansPro-Bold.woff') format('woff'), url('../resources/SourceSansPro-Bold.otf') format('opentype'), url('../resources/SourceSansPro-Bold.ttf') format('truetype');
 }
 body {
   margin: 0;
@@ -175,11 +175,12 @@ header p > #vcard {
   max-width: 1024px;
 }
 #build {
-  background-color: #f38630;
+  background-color: #FB9C44;
+  background-image: linear-gradient(to left, #FB9C44, #FC4831);
   padding: 50px;
   padding-bottom: 0px;
   color: white;
-  text-shadow: 0px 2px 0px #c05300;
+  text-shadow: 0px 2px 0px rgba(0,0,0,0.1);
   position: relative;
   overflow: hidden;
 }
@@ -198,7 +199,7 @@ header p > #vcard {
   top: -600px;
   left: 10%;
   text-align: left;
-  color: #ca6e26;
+  color: rgba(0, 0, 0, 0.1);
   margin: 0 auto;
   text-shadow: none;
   -webkit-transform: rotateX(128deg) rotateY(192deg) rotateZ(157deg) scale3d(0.7, 0.7, 0.7);
@@ -215,7 +216,7 @@ header p > #vcard {
   z-index: 2;
 }
 #build h2::selection {
-  color: #f38630;
+  color: #FB9C44;
   background-color: white;
   text-shadow: none;
 }
