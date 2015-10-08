@@ -6,27 +6,24 @@ I hereby claim:
 
   * I am an admin of http://fantattitude.me
   * I am fantattitude (https://keybase.io/fantattitude) on keybase.
-  * I have a public key with fingerprint 8EF6 E7FA 825D E73F 061D  7CE5 418A 5800 481C 8BB3
+  * I have a public key with fingerprint F217 B38B 1B12 79DA 90B1  24A6 20D4 BDE2 BB8F 93E2
 
-To claim this, I am signing this object:
+To do so, I am signing this object:
 
 {
     "body": {
         "client": {
             "name": "keybase.io node.js client",
-            "version": "0.4.9"
+            "version": "0.8.19"
         },
         "key": {
-            "fingerprint": "8ef6e7fa825de73f061d7ce5418a5800481c8bb3",
+            "eldest_kid": "01015c25e9bcff4e1fe4ab7aa0a9929ae6d0e962cf685f0e2bf86079a1a1ecbda68d0a",
+            "fingerprint": "f217b38b1b1279da90b124a620d4bde2bb8f93e2",
             "host": "keybase.io",
-            "key_id": "418A5800481C8BB3",
+            "key_id": "20d4bde2bb8f93e2",
+            "kid": "01015c25e9bcff4e1fe4ab7aa0a9929ae6d0e962cf685f0e2bf86079a1a1ecbda68d0a",
             "uid": "9813b3b15dfa1cd263449ba928cc0400",
             "username": "fantattitude"
-        },
-        "merkle_root": {
-            "ctime": 1403602212,
-            "hash": "93795df99fb432892a4beb5271f4b8fa7fd4ba94c57567eb4fdb3c8a6a6b2cb0a0e3b16492bb86c303d16c8739d45a0170121875bc6ce34cfd1afeb6eda927b6",
-            "seqno": 22805
         },
         "service": {
             "hostname": "fantattitude.me",
@@ -35,38 +32,41 @@ To claim this, I am signing this object:
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1403602312,
+    "ctime": 1444293112,
     "expire_in": 157680000,
-    "prev": "d85c241a37644679abc9d2c08b75381a57c1252762daf3b57daa7d6ed0e34e3c",
-    "seqno": 9,
+    "prev": "52091c85879b6bffc0c5f4e862e29570bd36279284277edafb3fd713e4b83350",
+    "seqno": 21,
     "tag": "signature"
 }
 
-with the aforementioned key, yielding the PGP signature:
+which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
 Comment: GPGTools - https://gpgtools.org
 
-owFtUn9oVVUcf08t5yTsBzOzWfOgUDCe59e959wnEk4WQeAyDTXQx/l1t+u2e9/u
-vZuNKaTCmIswlm3+EblQkQqDh9QfWSSPsWAj/4pEhCVBxLMUZ1BOUTp3LErov/Pj
-cz6/vue9xxbn6vObh3flXml853x+uiZz2z9pPToAZKT7QXEAqK7AhGm2CkW3AUXQ
-afqlSEwhiJrCSJvCvqRpAdMM+kycBFFoUbBACx442JzBs8d+ELabuBwHGRfgxncN
-8wXHjjaM+NBFminjUMSFwyGkHCkuJbGUHVGSPqQK5jlLgbanFr95Ab+Ft7Rk+N75
-C48jIolEjvYFUhq7hFJPCg9zpSCFMAMmJl6I5IswFWkapL3aZJ67TdzZZUpxFM0H
-V2mQwRCFxIUYI2xdiaQjkyHMsxKe50tKMPewoNJIBzPkU8l9wXxNrSpVDnNcZiT1
-tSSKC1e4EisJBTTWpEs9LCV3FYFEI1dxRjxNHQERgwgjzhypXGUIVb5GwjfSNdpG
-YdK1MRLTE0agiDGHzsFsG/cFymS2s+b+J2DBnjSDchylkYq67GVHmpaLWey0v2zA
-+SLYb2Rpgackg1Db0f13tshCH66EZJWYt8pBbEpBhnCYa6cCYaZj+qyG5o7CFAnC
-XEpd5gmpPI0V5JI5hCPhMIWw7c3FWvhEOkwLwbTNaQuihqh/g3rWp2i3lEnQHoq0
-N7YTO5pvXJLL1+cefWRR9nlz9cse/+dH127X5UbjFev3vpR/sbJmw9mBsW09lzbN
-Pfna1L2RywOzldrvP4Cp6h8X+m79OPLnbx9eO3f1lDfcffyF0703hrfu5+PquYmp
-Lxv8w5Xvz9zc3r145epfDrR9+/aukV+/OzK95ErnmtHqhcsda9e3TT7x04bJtp2v
-vv402J0OzaBrK07fv/duZ9PdnrtXl3JxO9nx/sWfAZuI77Q0DFWubJpZPkiPTK/9
-YnR8UXX37FRdY8NXgyh/8dlnrh+vzlVaPgpO7ql8UPBe/nSjAF+3vnlyaQhnltfy
-d04MrS7ObTu0ddng80/tOfPNpb3Vjx8cbv68NvbXgTcmNu6YXHcoHDtR17ZzdrwV
-f3Zs9D6oX9X0Nw==
-=4acq
+owGtkn1MFEcYxg+kUA5BrCAC9npdaooRzp29/TxA6wdnUgqotdiKcOzszsLKuQd3
+CxYRicSCUCzUL2rQ0AIBSWs/Y5vG0qqIBSX9oAKlQqhHJbGQlFijkkDaXUKTNvHP
+zl+TeX/vM8/7zNQHLzIYfcw3O70X6457fW7chYaM5atnSjHoEkswWykmOGWkqPpO
+4fcizIbloxLIe5BFdpkVl4gsezzmBSYOK0Zuj+xSNAq3sBbAYWVxOq93I6eIPKoj
+Xxb1KsABJRAU4qAgSSQCEiJ5yPA8znMcwfGIFnHE0YQg0Swl4YiAEkvjDMcDHiAB
+ijzNijivXSjJSi5yF7hl3SImEYCBVhYCCAiGE3kO1zYkTxO4SEJRU4GsxFkRoTXm
+uTzqf4bB5p065u09hv+ffRfNy3EssEIrBJQo8UAQCdpKkhzkOYIVBJzEcR30IPdC
+8BKvqLyqymqRiPRgtUqxLCA9XH2ax1AW7SQOK3C7VJfgcmrFPFUtsOm9akmBDu9D
+0LEg44CyImppNv37GYGGCqqsCwOSJAnOCgARh6HXC2Q3csg6QTE0i2tLvwcVa5oU
+gXNAYCmW4SANJUnABUqLiqUJRHAUg0PRSmuvQ7AkwTBI5CVolUQGWBEJWauV0of2
+oELFhdkIoBnlczVNj5yr8GqRW5u72neln8HHaPB/wlf/qAZjYOg/v7c0dcls4BuJ
+/e7hpuc6BkKL7sxUDW50LlNa2FsryqJs40OJ5o7bj5pmw+zrks+ua/ONnyS2+jTm
+hrzbGFbmV9FleimzNqvGryZ7hcGTWfHJGePV+CHSOb2vurf58GvUkh2LZ9a0bHG8
+/14m9xY7cco7FnDy94e9yavt5z4o6g8//8xQrGmkqqSyjdnKxKYfGvzyw+PetYPd
+rW/vPlEcCC7P7Cw8s7Q3xx6S8PQ0XxWfCNnPRmq6hJ9K5qKnYrJ2jRJJeZvsl2LG
+KpNGt1WnxYI+k7dwaYT/sf2tqacH54xcxFefToW4TZ8P2HdOJHXNGmYao+93HCjO
+/sE8fmn5lP/lX6+kEx2x/l+krBnq3D19E2In441U0MW68VthVzaaNoz2r39gejUq
+zdbakvo9lu7+MdFR3p2/qrZvVbv9+YNZ4y9iL9w9FlP+jhO8+XEVsPwx+VR3CvVR
+yFTfhZ57MPib6tDM7FNisis6+vAr24ca8MCf28zbmq6Ft399tvG3HXsPRjxY2ZAZ
+Wbk5oC5Hqg+qF4+8PJCYnnAoNvuXrh7F65i4k3VuthdvXxbZc7RpzvdqQllzxo3o
+4Yla5+m1i8rDz4uUT/qG1KjqgLSMzvi/pr61jO0Zrko9ELDeMdrQ/NCU0/bnhf1B
+9+4zmzdtzxaeHTlyvSLsGkvcfjReOxk8EPnd9SdDAst3Hc1fnFIX9Tc=
+=81HT
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
