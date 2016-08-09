@@ -1,0 +1,39 @@
+!!!
+%html{:lang => "en"}
+	%head
+		%meta{:charset => "utf-8"}/
+		%meta{:name => "viewport", :content => "width=device-width"}/
+		%meta{:name => "viewport", :content => "initial-scale=1.0"}/
+		%title {{ page.title }}
+		%meta{:name => "description", :content => "Vivien Leroy is an iOS developer from France, this is his website."}/
+		%meta{:name => "author", :content => "Vivien Leroy"}/
+		%link{:href => "/favicon.ico", :rel => "shortcut icon"}/
+		%link{:href => "/style/style.css", :rel => "stylesheet", :type => "text/css"}/
+		{% if page.blog == true or layout.blog == true %}
+		%link{:href => "/style/spacegray.css", :rel => "stylesheet", :type => "text/css"}/
+		{% endif %}
+	%body
+		%header
+			#header.text{:id => "{{ page.animation }}"}
+				%h1 Vivien Leroy
+				%p
+					Software engineer
+					%a#vcard{:href => "http://fantattitude.me/resources/vivien.vcf"} &#xe002;
+			.overlay
+		#social
+			%a#bio{:class => "{% if page.blog != true and layout.blog != true %}active{% endif %}", :href => '/'} &#xe000;
+			%a#blog{:class => "{% if page.blog == true or layout.blog == true %}active{% endif %}", :href => '/blog'} &#xe001;
+			%a#twitter{:href => 'http://twitter.com/Fantattitude'} &#xf309;
+			%a#github{:href => 'http://github.com/Fantattitude'} &#xf300;
+			%a#dribbble{:href => 'http://dribbble.com/Fantattitude'} &#xf31b;
+			%a#lastfm{:href => 'http://last.fm/user/Fantattitude'} &#xf321;
+		
+		{{ content }}
+
+		%footer
+			Made on a
+			%span 
+			using Sketch.app &amp; Vim.
+		{% if page.blog != true %}
+		%script{:src => "/script/script.js", :type => "text/javascript"}
+		{% endif %}
