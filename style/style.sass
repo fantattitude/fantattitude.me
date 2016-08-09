@@ -1,0 +1,548 @@
+---
+---
+
+@font-face
+	font-family: "fanta-icon"
+	src: url("../resources/fanta-icon.eot") format("eot"), url("../resources/fanta-icon.woff") format("woff"), url("../resources/fanta-icon.svg") format("svg"), url("../resources/fanta-icon.ttf") format("truetype")
+
+@font-face
+	font-family: 'Source Sans Pro'
+	font-weight: 400
+	font-style: normal
+	font-stretch: normal
+	src: local('SourceSansPro-Regular'), local('Source Sans Pro'), url('../resources/SourceSansPro-Regular.eot') format('embedded-opentype'), url('../resources/SourceSansPro-Regular.woff') format('woff'), url('../resources/SourceSansPro-Regular.otf') format('opentype'), url('../resources/SourceSansPro-Regular.ttf') format('truetype')
+
+@font-face
+	font-family: 'Source Sans Pro'
+	font-weight: 400
+	font-style: italic
+	font-stretch: normal
+	src: local('SourceSansPro-It'), local('Source Sans Pro'), url('../resources/SourceSansPro-It.eot') format('embedded-opentype'), url('../resources/SourceSansPro-It.woff') format('woff'), url('../resources/SourceSansPro-It.otf') format('opentype'), url('../resources/SourceSansPro-It.ttf') format('truetype')
+@font-face
+	font-family: 'Source Sans Pro'
+	font-weight: 700
+	font-style: normal
+	font-stretch: normal
+	src: local('SourceSansPro-Bold'), local('Source Sans Pro Bold'), url('../resources/SourceSansPro-Bold.eot') format('embedded-opentype'), url('../resources/SourceSansPro-Bold.woff') format('woff'), url('../resources/SourceSansPro-Bold.otf') format('opentype'), url('../resources/SourceSansPro-Bold.ttf') format('truetype')
+
+*
+	margin: 0
+	padding: 0
+
+body
+	margin: 0
+	padding: 0
+	font-family: "Source Sans Pro", Arial, sans-serif
+	font-weight: bold
+	font-size: 16px
+	text-align: center
+	-webkit-font-smoothing: antialiased
+
+.separator
+	height: 62px
+	-webkit-touch-callout: none
+	-webkit-user-select: none
+	-khtml-user-select: none
+	-moz-user-select: none
+	-ms-user-select: none
+	user-select: none
+
+header
+	background-color: #e0e4cc
+	color: #60644c
+	text-shadow: 0px 2px 0px #c1c999
+	margin: 0
+	padding: 50px
+	letter-spacing: 1px
+	position: relative
+	overflow: hidden
+	.overlay
+		pointer-events: none
+		background-image: url("../resources/reflection.png")
+		background-position: center
+		background-repeat: no-repeat
+		background-size: 100% 100%
+		width: 634px
+		height: 100%
+		position: absolute
+		top: 0px
+		left: 50%
+		margin-left: -317px
+	*::selection
+		color: white
+		background-color: #60644c
+	.text
+		position: relative
+		top: -200px
+		-webkit-transition: top 3s linear
+		-moz-transition: top 3s linear
+		transition: top 3s linear
+
+	#header
+		position: relative
+		top: 0px
+	.animate
+		position: relative
+		top: 0px
+		-webkit-transition: top 3s linear
+		-moz-transition: top 3s linear
+		transition: top 3s linear
+	h1
+		font-size: 78px
+		line-height: 69px
+		margin-bottom: 30px
+
+	p
+		color: #878b73
+		font-size: 30px
+		text-transform: lowercase
+		> #vcard
+			font-family: "fanta-icon"
+			color: #878b73
+			text-decoration: none
+			margin-left: 15px
+			position: relative
+			top: 4px
+
+#social
+	height: 125px
+	text-align: center
+	max-width: 1024px
+	margin: 0 auto
+	font-family: "fanta-icon"
+	font-weight: normal
+	font-size: 60px
+	line-height: 130px
+	-webkit-touch-callout: none
+	-webkit-user-select: none
+	-khtml-user-select: none
+	-moz-user-select: none
+	-ms-user-select: none
+	user-select: none
+
+	> a
+		display: inline-block
+		width: 15%
+		height: 100%
+		color: #bfbfbf
+		background-position: center center
+		background-repeat: no-repeat
+		text-decoration: none
+		-webkit-transition: background-color 0.25s, box-shadow 0.25s, -webkit-transform 0.5s
+		-moz-transition: background-color 0.25s, box-shadow 0.25s, -webkit-transform 0.5s
+		transition: background-color 0.25s, box-shadow 0.25s, -webkit-transform 0.5s
+		&.active
+			color: #444444
+
+		&:hover
+			background-color: gray
+			-webkit-transition: background-color 0.25s, box-shadow 0.25s, -webkit-transform 0.5s
+			-moz-transition: background-color 0.25s, box-shadow 0.25s, -webkit-transform 0.5s
+			transition: background-color 0.25s, box-shadow 0.25s, -webkit-transform 0.5s
+		&:active
+			box-shadow: inset 0px 2px 8px rgba(0, 0, 0, 0.3)
+			-webkit-transition: background-color 0.25s, box-shadow 0.25s, -webkit-transform 0.5s
+			-moz-transition: background-color 0.25s, box-shadow 0.25s, -webkit-transform 0.5s
+			transition: background-color 0.25s, box-shadow 0.25s, -webkit-transform 0.5s
+
+#presentation
+	background-color: #ff6b6b
+	padding: 50px
+	color: white
+	text-shadow: 0px 2px 0px #cc3838
+	*::selection
+		color: #ff6b6b
+		background-color: white
+		text-shadow: none
+	h2
+		font-size: 36px
+		margin: 0 auto
+		margin-bottom: 20px
+		max-width: 1024px
+	p
+		margin: 0 auto
+		font-size: 20px
+		line-height: 30px
+		max-width: 1024px
+
+#build
+	background-color: #FB9C44
+	background-image: linear-gradient(to left, #FB9C44, #FC4831)
+	padding: 50px
+	padding-bottom: 0px
+	color: white
+	text-shadow: 0px 2px 0px rgba(0,0,0,0.1)
+	position: relative
+	overflow: hidden
+	pre
+		-webkit-touch-callout: none
+		-webkit-user-select: none
+		-khtml-user-select: none
+		-moz-user-select: none
+		-ms-user-select: none
+		user-select: none
+		font-family: monospace, sans-serif
+		font-weight: bold
+		font-size: 26px
+		width: 1024px
+		position: absolute
+		top: -600px
+		left: 10%
+		text-align: left
+		color: rgba(0, 0, 0, 0.1)
+		margin: 0 auto
+		text-shadow: none
+		-webkit-transform: rotateX(128deg) rotateY(192deg) rotateZ(157deg) scale3d(0.7, 0.7, 0.7)
+		-moz-transform: rotateX(128deg) rotateY(192deg) rotateZ(157deg) scale3d(0.7, 0.7, 0.7)
+		transform: rotateX(128deg) rotateY(192deg) rotateZ(157deg) scale3d(0.7, 0.7, 0.7)
+		z-index: 1
+	h2
+		font-size: 36px
+		margin: 0 auto
+		margin-bottom: 20px
+		max-width: 1024px
+		position: relative
+		z-index: 2
+
+	&::selection
+		color: #FB9C44
+		background-color: white
+		text-shadow: none
+
+/* Browser */
+.browser
+	max-width: 1024px
+	margin: 0 auto
+	width: 100%
+	min-width: 376px
+	overflow: hidden
+	position: relative
+	z-index: 3
+
+	.bar
+		height: 64px
+		width: 100%
+		-webkit-touch-callout: none
+		-webkit-user-select: none
+		-khtml-user-select: none
+		-moz-user-select: none
+		-ms-user-select: none
+		user-select: none
+		.left
+			float: left
+			background: url("../resources/safari.png") 0 0 no-repeat
+			width: 239px
+			height: 100%
+			background-size: 376px 64px
+		.mid
+			background: url("../resources/safaritop.png") 0 0 repeat-x
+			overflow: hidden
+			height: 100%
+			background-size: 1px 64px
+		.right
+			float: right
+			background: url("../resources/safari.png") -239px 0 no-repeat
+			width: 137px
+			height: 100%
+			background-size: 376px 64px
+
+.content
+	overflow: hidden
+	position: relative
+	.left, .right
+		height: 100%
+		background: rgba(255, 0, 0, 0.3)
+		width: 48px
+		position: absolute
+		background-size: 96px 1px
+	.left
+		left: 0px
+		background: url("../resources/safarimid.png") repeat-y left top
+	.right
+		right: 0px
+		background: url("../resources/safarimid.png") repeat-y right top
+	.mid
+		margin: 0px 48px
+		padding: 30px 30px
+		background-color: white
+		color: #232323
+		text-shadow: none
+		font-weight: normal
+
+/* Fin Browser */
+#portfolio
+	background-color: #a7dbd8
+	padding: 50px
+	color: white
+	text-shadow: 0px 2px 0px #74a8a5
+	text-align: center
+	overflow: hidden
+	*::selection
+		color: #a7dbd8
+		background-color: white
+		text-shadow: none
+
+#pokecenter
+	> div
+		max-width: 1024px
+		margin: 0 auto
+	.text
+		max-width: 49%
+		margin: 0 auto
+		display: inline-block
+		vertical-align: top
+		text-align: left
+	.image
+		max-width: 49%
+		margin: 0 auto
+		display: inline-block
+		vertical-align: top
+		max-height: 150px
+	img
+		margin-top: -125px
+		margin-right: -300px
+		vertical-align: top
+	h2
+		font-size: 36px
+		margin: 0 auto
+		margin-bottom: 20px
+		max-width: 1024px
+	p
+		margin: 0 auto
+		font-size: 20px
+		line-height: 30px
+		max-width: 1024px
+
+footer
+	color: #a3a3a3
+	font-size: 18px
+	padding: 25px
+	span
+		font-size: 24px
+		font-family: "fanta-icon"
+
+@media screen and (max-width:480px)
+	header
+		padding: 25px
+		h1
+			font-size: 38px
+			line-height: 29px
+			margin-bottom: 10px
+		p
+			font-size: 20px
+			text-transform: lowercase
+
+	#social
+		font-size: 32px
+		height: 70px
+		line-height: 70px
+
+	#presentation
+		padding: 25px
+		h2
+			font-size: 26px
+		p
+			margin: 0 auto
+			font-size: 16px
+			line-height: 20px
+			max-width: 1024px
+
+	#build
+		padding: 25px
+		padding-bottom: 0px
+		h2
+			font-size: 26px
+			margin-bottom: 10px
+
+	#portfolio
+		padding: 25px
+
+	#pokecenter
+		h2
+			font-size: 26px
+		p
+			font-size: 16px
+			line-height: 20px
+
+$backgroundColors: #c2dc89 #a7dbd8 #ff6b6b #f38630 #12b8b5
+$textShadows: #9bbf0d #74a8a5 #c05300 #c05300 #0b7472
+$hoverColors: #e0edc4 #dbf0ef #ffb3b3 #f7ac73 #a2f6f4
+
+article
+	&.post
+		width: auto
+		font-weight: 400
+		margin: 0 0 40px
+		padding: 0
+		@each $currentColor in $backgroundColors
+			$i: index($backgroundColors, $currentColor)
+			&.color#{$i}
+				h2.post_title
+					background-color: $currentColor 
+					text-shadow: 0 2px 0 nth($textShadows, $i)
+					&::selection
+						background-color: #FFF
+						color: $currentColor
+						text-shadow: none
+				.contenu a
+					color: $currentColor
+					&:hover span
+						background-color: nth($hoverColors, $i)
+		&::selection
+			color: white
+		h2.post_title
+			background-color: #ff6b6b
+			font-weight: 700
+			font-size: 16px
+			color: #FFF
+			text-shadow: 0 2px 0 #cc3838
+			margin: 0
+			padding: 30px 20px
+			a
+				font-size: 28px
+				color: #FFF
+				text-decoration: none
+			.detail
+				display: block
+				padding-top: 10px
+		.contenu
+			-moz-box-sizing: border-box
+			-webkit-box-sizing: border-box
+			box-sizing: border-box
+			padding: 20px
+			overflow: hidden
+			text-align: center
+			hr
+				background: none
+				margin: 0
+			ul, ol
+				max-width: 800px
+				padding-left: 40px
+				padding-top: 30px
+				padding-bottom: 30px
+				font-size: 22px
+				margin: 0 auto
+				-moz-box-sizing: border-box
+				-webkit-box-sizing: border-box
+				box-sizing: border-box
+			.highlight
+				border-radius: 8px
+				text-align: left
+				margin: 20px auto
+				padding: 30px
+				max-width: 800px
+				overflow: auto
+				-moz-box-sizing: border-box
+				-webkit-box-sizing: border-box
+				box-sizing: border-box
+			p
+				text-align: left
+				font-size: 22px
+				line-height: 32px
+				max-width: 800px
+				margin: 20px auto
+				iframe
+					text-align: center
+				a
+					color: #bc0100
+					font-weight: 700
+					text-decoration: none
+					&::after
+						content: " →"
+				.images, .iframes
+					text-align: center
+					font-size: 12px
+					margin: 30px auto
+			figure
+				img
+					text-align: center
+					max-width: 100%
+					border-radius: 8px
+					margin: 20px auto
+			li
+				text-align: left
+				line-height: 28px
+				margin-bottom: 10px
+
+			.twitter-tweet-rendered
+				margin: auto !important
+		h3
+			margin: 20px auto
+
+
+article.post.color0::selection, article.post.color0 .contenu a span:after
+	background-color: #c2dc89
+
+article.post.color1::selection, article.post.color1 .contenu a span:after
+	background-color: #a7dbd8
+
+article.post.color2::selection, article.post.color2 .contenu a span:after
+	background-color: #ff6b6b
+
+article.post.color3::selection, article.post.color3 .contenu a span:after
+	background-color: #f38630
+
+article.post.color4::selection, article.post.color4 .contenu a span:after
+	background-color: #12b8b5
+
+@media screen and (max-width:446px)
+	.browser
+		width: 100%
+		overflow: hidden
+		position: relative
+		left: 50%
+		margin-left: -173px
+
+@media screen and (max-width:640px)
+	#pokecenter
+		.text
+			max-width: 100%
+			margin: 0 auto
+			display: inline-block
+			vertical-align: top
+			text-align: left
+		.image
+			max-width: 100%
+			margin: 0 auto
+			margin-top: 0px
+			display: inline-block
+			vertical-align: top
+			max-height: 250px
+			margin-left: -75%
+		img
+			margin-top: 0px
+			margin-right: 0px
+			vertical-align: top
+
+@media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi)
+	.browser
+		.bar
+			.left
+				float: left
+				background: url("../resources/safari@2x.png") 0 0 no-repeat
+				width: 239px
+				height: 100%
+				background-size: 376px 64px
+			.mid
+				background: url("../resources/safaritop@2x.png") 0 0 repeat-x
+				overflow: hidden
+				height: 100%
+				background-size: 1px 64px
+			.right
+				float: right
+				background: url("../resources/safari@2x.png") -239px 0 no-repeat
+				width: 137px
+				height: 100%
+				background-size: 376px 64px
+
+	.content
+		.left
+			left: 0px
+			background: url("../resources/safarimid@2x.png") repeat-y left top
+			width: 48px
+			background-size: 96px 1px
+		.right
+			right: 0px
+			background: url("../resources/safarimid@2x.png") repeat-y right top
+			width: 48px
+			background-size: 96px 1px
