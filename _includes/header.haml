@@ -8,21 +8,21 @@
 					%use{"xlink:href" => "/resources/icons.svg#vcard"}
 	.overlay
 #social
-	%a#bio{:title => "À propos de moi", :class => "{% if page.blog != true and layout.blog != true %}active{% endif %}", :href => '/'}>
+	%a#bio{:title => "À propos de moi", :class => "{% if page.blog != true and layout.blog != true %}active{% endif %}", :href => '/'}
 		%svg
 			%use{"xlink:href" => "/resources/icons.svg#me"}
-	%a#blog{:title => "Blog", :class => "{% if page.blog == true or layout.blog == true %}active{% endif %}", :href => '/blog'}>
+	%a#blog{:title => "Blog", :class => "{% if page.blog == true or layout.blog == true %}active{% endif %}", :href => '/blog'}
 		%svg
 			%use{"xlink:href" => "/resources/icons.svg#blog"}
-	%a#twitter{:title => "Twitter", :href => 'http://twitter.com/Fantattitude'}>
+	%a#twitter{:title => "Twitter", :href => 'http://twitter.com/Fantattitude'}
 		%svg
 			%use{"xlink:href" => "/resources/icons.svg#twitter"}
-	%a#github{:title => "GitHub", :href => 'http://github.com/Fantattitude'}>
+	%a#github{:title => "GitHub", :href => 'http://github.com/Fantattitude'}
 		%svg
 			%use{"xlink:href" => "/resources/icons.svg#github"}
-	%a#dribbble{:title => "Dribbble", :href => 'http://dribbble.com/Fantattitude'}>
+	%a#dribbble{:title => "Dribbble", :href => 'http://dribbble.com/Fantattitude'}
 		%svg
 			%use{"xlink:href" => "/resources/icons.svg#dribbble"}
-	%a#lastfm{:title => "Last.fm", :href => 'http://last.fm/user/Fantattitude'}>
+	%a#lastfm{:title => "Last.fm", :href => 'http://last.fm/user/Fantattitude'}
 		%svg
 			%use{"xlink:href" => "/resources/icons.svg#lastfm"}

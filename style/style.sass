@@ -110,6 +110,8 @@ header
 	max-width: 1024px
 	margin: 0 auto
 	line-height: 120px
+	display: flex
+	justify-content: center
 	-webkit-touch-callout: none
 	-webkit-user-select: none
 	-khtml-user-select: none
@@ -118,7 +120,6 @@ header
 	user-select: none
 
 	> a
-		display: inline-block
 		width: 15%
 		height: 100%
 		color: #bfbfbf
@@ -334,9 +335,11 @@ footer
 			text-transform: lowercase
 
 	#social
-		font-size: 32px
 		height: 70px
 		line-height: 70px
+		> a svg
+			height: 32px
+			width: 32px
 
 	#presentation
 		padding: 25px
