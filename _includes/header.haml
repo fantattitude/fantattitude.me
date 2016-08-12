@@ -3,12 +3,12 @@
 		%h1 Vivien Leroy
 		%p
 			Software engineer
-			%a#vcard{:title => "Télécharger ma vCard", :href => "http://fantattitude.me/resources/vivien.vcf"}
+			%a#vcard{:title => "Download my vCard", :href => "http://fantattitude.me/resources/vivien.vcf"}
 				%svg
 					%use{"xlink:href" => "/resources/icons.svg#vcard"}
 	.overlay
 #social
-	%a#bio{:title => "À propos de moi", :class => "{% if page.blog != true and layout.blog != true %}active{% endif %}", :href => '/'}
+	%a#bio{:title => "About me", :class => "{% if page.blog != true and layout.blog != true %}active{% endif %}", :href => '/'}
 		%svg
 			%use{"xlink:href" => "/resources/icons.svg#me"}
 	%a#blog{:title => "Blog", :class => "{% if page.blog == true or layout.blog == true %}active{% endif %}", :href => '/blog'}
