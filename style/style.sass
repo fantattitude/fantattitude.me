@@ -2,10 +2,6 @@
 ---
 
 @font-face
-	font-family: "fanta-icon"
-	src: url("../resources/fanta-icon.eot") format("eot"), url("../resources/fanta-icon.woff") format("woff"), url("../resources/fanta-icon.svg") format("svg"), url("../resources/fanta-icon.ttf") format("truetype")
-
-@font-face
 	font-family: 'Source Sans Pro'
 	font-weight: 400
 	font-style: normal
@@ -28,6 +24,9 @@
 *
 	margin: 0
 	padding: 0
+
+svg
+	fill: currentColor
 
 body
 	margin: 0
@@ -71,22 +70,21 @@ header
 	*::selection
 		color: white
 		background-color: #60644c
-	.text
-		position: relative
-		top: -200px
-		-webkit-transition: top 3s linear
-		-moz-transition: top 3s linear
-		transition: top 3s linear
-
 	#header
 		position: relative
 		top: 0px
-	.animate
-		position: relative
-		top: 0px
-		-webkit-transition: top 3s linear
-		-moz-transition: top 3s linear
-		transition: top 3s linear
+		&.shouldAnimate
+			position: relative
+			top: -200px
+			-webkit-transition: top 3s linear
+			-moz-transition: top 3s linear
+			transition: top 3s linear
+		&.animate
+			position: relative
+			top: 0px
+			-webkit-transition: top 3s linear
+			-moz-transition: top 3s linear
+			transition: top 3s linear
 	h1
 		font-size: 78px
 		line-height: 69px
@@ -97,22 +95,21 @@ header
 		font-size: 30px
 		text-transform: lowercase
 		> #vcard
-			font-family: "fanta-icon"
 			color: #878b73
 			text-decoration: none
-			margin-left: 15px
+			margin-left: 5px
 			position: relative
-			top: 4px
+			svg
+				vertical-align: middle
+				height: 32px
+				width: 32px	
 
 #social
-	height: 125px
+	height: 120px
 	text-align: center
 	max-width: 1024px
 	margin: 0 auto
-	font-family: "fanta-icon"
-	font-weight: normal
-	font-size: 60px
-	line-height: 130px
+	line-height: 120px
 	-webkit-touch-callout: none
 	-webkit-user-select: none
 	-khtml-user-select: none
@@ -133,7 +130,6 @@ header
 		transition: background-color 0.25s, box-shadow 0.25s, -webkit-transform 0.5s
 		&.active
 			color: #444444
-
 		&:hover
 			background-color: gray
 			-webkit-transition: background-color 0.25s, box-shadow 0.25s, -webkit-transform 0.5s
@@ -144,6 +140,10 @@ header
 			-webkit-transition: background-color 0.25s, box-shadow 0.25s, -webkit-transform 0.5s
 			-moz-transition: background-color 0.25s, box-shadow 0.25s, -webkit-transform 0.5s
 			transition: background-color 0.25s, box-shadow 0.25s, -webkit-transform 0.5s
+		svg
+			height: 64px
+			width: 64px
+			vertical-align: middle
 
 #presentation
 	background-color: #ff6b6b
@@ -317,9 +317,10 @@ footer
 	color: #a3a3a3
 	font-size: 18px
 	padding: 25px
-	span
-		font-size: 24px
-		font-family: "fanta-icon"
+	svg
+		height: 24px
+		width: 24px
+		vertical-align: bottom
 
 @media screen and (max-width:480px)
 	header

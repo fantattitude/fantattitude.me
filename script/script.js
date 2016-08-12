@@ -7,6 +7,10 @@ function PrefixedEvent(element, type, callback) {
     }
 }
 
+function hasClass(el, cls) {
+    return el.className.indexOf(cls) != -1;
+}
+
 var a = document.createElement('audio');
 if (!!(a.canPlayType && a.canPlayType('audio/mpeg;').replace(/no/, ''))) {
 	var snd = new Audio('/resources/gb.mp3');
@@ -19,11 +23,11 @@ snd.addEventListener('ended', function(event) {
 }, false);
 
 document.addEventListener("DOMContentLoaded", function() {
-    if (document.getElementById('header_text')) {
-        PrefixedEvent(document.getElementById('header_text'), 'TransitionEnd', function(event) {
+    if (hasClass(document.getElementById('header'), 'shouldAnimate')) {
+        PrefixedEvent(document.getElementById('header'), 'TransitionEnd', function(event) {
             snd.play();
         });
         
-        document.getElementById('header_text').className = 'animate';
+        document.getElementById('header').className = 'animate';
     }
 });
