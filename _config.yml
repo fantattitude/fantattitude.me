@@ -1,4 +1,4 @@
 name: Vivien Leroy is Fantattitude
 markdown: redcarpet
-permalink: /:title
+permalink: /:title/
 exclude: ['vendor', 'Gemfile', 'Gemfile.lock']
