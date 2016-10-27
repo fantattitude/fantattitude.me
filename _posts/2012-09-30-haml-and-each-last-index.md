@@ -21,7 +21,7 @@ Well it's quite simple in fact and here's how to do it :
 
 So you replace **each** by **each\_with\_index** and now you get the index along with the object and you can easily check if it's last object by querying the size of the array.
 
-Update (as @Kaoo pointed out there's an even more clean solution) : 
+Update (as [@Kaoo](http://twitter.com/Kaoo) pointed out there's an even more clean solution) : 
 
 ~~~haml
 - @posts.each do |post|

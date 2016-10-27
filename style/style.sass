@@ -417,8 +417,12 @@ article
 			overflow: hidden
 			text-align: center
 			hr
-				background: none
-				margin: 0
+				margin: 50px auto
+				width: auto
+				border: none
+				height: 1px
+				background-color: #DDD
+				max-width: 800px
 			ul, ol
 				max-width: 800px
 				padding-left: 40px
@@ -439,20 +443,30 @@ article
 				-moz-box-sizing: border-box
 				-webkit-box-sizing: border-box
 				box-sizing: border-box
+			h3
+				font-size: 24px
+
+			a
+				color: #bc0100
+				font-weight: 700
+				text-decoration: none
+				&::after
+					content: " →"
 			p
 				text-align: left
 				font-size: 22px
 				line-height: 32px
 				max-width: 800px
 				margin: 20px auto
+				> code
+					background-color: #DDD
+					font-size: 1em
+					vertical-align: middle
+					padding: 1px 6px
+					border-radius: 4px
+					color: #555
 				iframe
 					text-align: center
-				a
-					color: #bc0100
-					font-weight: 700
-					text-decoration: none
-					&::after
-						content: " →"
 				.images, .iframes
 					text-align: center
 					font-size: 12px

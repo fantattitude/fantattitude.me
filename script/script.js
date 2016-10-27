@@ -19,7 +19,7 @@ if (!!(a.canPlayType && a.canPlayType('audio/mpeg;').replace(/no/, ''))) {
 }
 
 snd.addEventListener('ended', function(event) {
-    console.log('Audio finished playing, yes man this was the Game Boy startup chime :P.');
+    console.log('Audio finished playing and yes this was the Game Boy startup chime :P.');
 }, false);
 
 document.addEventListener("DOMContentLoaded", function() {
