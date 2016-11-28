@@ -47,9 +47,9 @@ body
 	user-select: none
 
 header
-	background-color: #e0e4cc
-	color: #60644c
-	text-shadow: 0px 2px 0px #c1c999
+	background-color: #88D0FF
+	color: #FFFFFF
+	text-shadow: 0px 2px 2px #56BDFF
 	margin: 0
 	padding: 50px
 	letter-spacing: 1px
@@ -69,37 +69,39 @@ header
 		margin-left: -317px
 	*::selection
 		color: white
-		background-color: #60644c
+		background-color: #56BDFF
 	#header
 		position: relative
 		top: 0px
-		&.shouldAnimate
-			position: relative
-			top: -200px
-			-webkit-transition: top 3s linear
-			-moz-transition: top 3s linear
-			transition: top 3s linear
-		&.animate
-			position: relative
-			top: 0px
-			-webkit-transition: top 3s linear
-			-moz-transition: top 3s linear
-			transition: top 3s linear
 	h1
 		font-size: 78px
 		line-height: 69px
 		margin-bottom: 30px
 
+	#gameboy
+		position: relative
+		margin: 0 auto
+		width: 600px
+		height: 104px
+		svg
+			position: absolute
+			top: 0
+			left: 0
+			filter: drop-shadow(0px 2px 2px #56BDFF)
+			path, svg
+				fill: currentColor
+
 	p
-		color: #878b73
+		color: #FFFFFF
 		font-size: 30px
 		text-transform: lowercase
 		> #vcard
-			color: #878b73
+			color: #FFFFFF
 			text-decoration: none
 			margin-left: 5px
 			position: relative
 			svg
+				filter: drop-shadow(0px 2px 2px #56BDFF)
 				vertical-align: bottom
 				height: 32px
 				width: 32px	
@@ -150,7 +152,7 @@ header
 	background-color: #ff6b6b
 	padding: 50px
 	color: white
-	text-shadow: 0px 2px 0px #cc3838
+	text-shadow: 0px 1px 2px #cc3838
 	*::selection
 		color: #ff6b6b
 		background-color: white
@@ -172,7 +174,7 @@ header
 	padding: 50px
 	padding-bottom: 0px
 	color: white
-	text-shadow: 0px 2px 0px rgba(0,0,0,0.1)
+	text-shadow: 0px 1px 2px rgba(0,0,0,0.2)
 	position: relative
 	overflow: hidden
 	pre
@@ -275,7 +277,7 @@ header
 	background-color: #a7dbd8
 	padding: 50px
 	color: white
-	text-shadow: 0px 2px 0px #74a8a5
+	text-shadow: 0px 1px 2px #74a8a5
 	text-align: center
 	overflow: hidden
 	*::selection
