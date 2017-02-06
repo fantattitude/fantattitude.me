@@ -82,6 +82,7 @@ header
 		position: relative
 		margin: 0 auto
 		width: 600px
+		max-width: 90%
 		height: 104px
 		svg
 			position: absolute
@@ -505,15 +506,10 @@ article.post.color3::selection, article.post.color3 .contenu a span:after
 article.post.color4::selection, article.post.color4 .contenu a span:after
 	background-color: #12b8b5
 
-@media screen and (max-width:446px)
-	.browser
-		width: 100%
-		overflow: hidden
-		position: relative
-		left: 50%
-		margin-left: -173px
-
 @media screen and (max-width:640px)
+	header
+		#gameboy
+			height: 72px
 	#pokecenter
 		.text
 			max-width: 100%
@@ -533,6 +529,22 @@ article.post.color4::selection, article.post.color4 .contenu a span:after
 			margin-top: 0px
 			margin-right: 0px
 			vertical-align: top
+
+@media screen and (max-width:446px)
+	.browser
+		width: 100%
+		overflow: hidden
+		position: relative
+		left: 50%
+		margin-left: -173px
+	header
+		#gameboy
+			height: 52px
+
+@media screen and (max-width:320px)
+	header
+		#gameboy
+			height: 32px
 
 @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi)
 	.browser
