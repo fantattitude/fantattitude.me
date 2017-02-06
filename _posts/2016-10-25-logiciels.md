@@ -55,6 +55,10 @@ J'aime avoir la possibilité de cacher mon traffic des yeux des propriétaires d
 
 Une suite d'outils libres pour faciliter l'utilisation de [GPG](https://fr.wikipedia.org/wiki/GNU_Privacy_Guard) sous Mac, notamment via l'extension GPG pour Mail. Indispensable pour tout ceux qui voudraient préserver leur vie privée et échanger de façon sécurisée avec d'autres utilisateurs de GPG.
 
+### {%image /Paw.png %} 💰 [Paw](https://paw.cloud)
+
+C'est fréquent de devoir travailler avec des API web (souvent toutes pétées ou qui ne fonctionnent pas comme on s'y attendrai) du coup il vaut mieux avoir de quoi dialoguer avec elles sans avoir à coder en premier lieu nos propres appels. Paw est un super client HTTP qui supporte une pléthore de formats, méthodes d'authentification. On peut même créer nos propres modules pour l'application. C'est la pépite des clients HTTP sous macOS.
+
 ---
 
 ## Pour le design
