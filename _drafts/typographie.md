@@ -9,7 +9,7 @@ color: 2
 
 La **typographie** est un sujet qu'on ne prend à mon goût pas assez au sérieux. Souvent on apprend quelques règles à l'école et on oublie tout en fin de compte et on ne respecte plus aucune des règles qu'on nous a inculqué voire pire on se met à écrire phonétiquement ou en raccourci, une ignominie à nul autre pareil.
 
-Aujourd'hui j'ai publié un petit rapport de bug pour *Apple* à ce sujet et je me suis dit que ça ferait un bon micro article, on va donc parler des espaces, espaces insécables et espaces insécables fines (oui car le mot *espace* en typographie est féminin).
+Aujourd'hui j'ai publié un petit rapport de bug pour *Apple* à ce sujet et je me suis dit que ça ferait un bon micro article, on va donc parler des espaces, espaces insécables et espaces fines insécables (oui car le mot *espace* en typographie est féminin).
 
 ## Espaces
 
@@ -51,16 +51,16 @@ Liste non exaustive des usages des insécables :
 
 Pour insérer une espace insécable sur ** macOS** rien de plus simple il suffit d'utiliser le raccourci suivant `⌥` + `Space`.
 
-Pour **Windows**, on utilise un Alt Code : `Alt` + `160 (au pavé numérique)` (`255` semble aussi fonctionner).
+Pour **Windows**, on utilise un Alt Code : `Alt` + `0160 (au pavé numérique)` (`255` semble aussi fonctionner).
 
 Pour **Linux**, le raccourci est `Compose` + `Space` + `Space`.
 
-## Espaces insécables fines
+## Espaces fines insécables
 
-Il existe une autre forme d'espace insécable qu'on appelle **l'espace insécable fine**. C'est une espace insécable plus étroite comme son nom le laisse entendre.
+Il existe une autre forme d'espace insécable qu'on appelle **l'espace fine insécable**. C'est une espace insécable plus étroite comme son nom le laisse entendre.
 
 > [ ] Insécable  
-> [ ] Insécable fine  
+> [ ] Fine insécable  
 > [] Pas d'espace
 
 Cette espace est utilisé dans des cas particuliers, en général avant les **signes de ponctuation double** comme le point d'exclamation ou d'interrogation (cas particuliers les `:` et `«  »` qui utilisent des espaces insécables simples).
@@ -70,3 +70,11 @@ Exemples :
 > J'ai chaud !
 > 
 > As-tu envie de siroter des cocktails en terrasse ?
+
+### Comment insérer une espace fine insécable
+
+Sur **Windows**, il faut passer par la table de caractères pour le trouver.
+
+Sur **Linux**, de même il n'est pas accessible directement 🙄…
+
+Sur **macOS**, idem. La malédiction est présente. J'ai cependant un petit cadeau pour vous. Si vous 

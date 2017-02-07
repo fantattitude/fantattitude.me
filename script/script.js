@@ -110,4 +110,10 @@ snd.addEventListener('playing', function(event) {
 	animate();
 }, false);
 
+if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
+	(function() {
+		animate();
+	});
+}
+
 snd.play();
