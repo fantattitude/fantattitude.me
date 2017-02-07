@@ -111,9 +111,9 @@ snd.addEventListener('playing', function(event) {
 }, false);
 
 if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
-	(function() {
+	document.addEventListener('DOMContentLoaded', function() {
 		animate();
-	});
+	}, false);
 }
 
 snd.play();
