@@ -2,7 +2,7 @@
 layout: post
 title:  "Typographie et espaces insécables"
 author: "Vivien Leroy"
-date:   2017-02-08 13:35:00
+date:   2017-02-07 13:35:00
 categories: typographie design
 color: 2
 ---
