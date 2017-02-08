@@ -371,8 +371,8 @@ footer
 			font-size: 16px
 			line-height: 20px
 
-$backgroundColors: #c2dc89 #a7dbd8 #ff6b6b #f38630 #12b8b5
-$textShadows: #9bbf0d #74a8a5 #c05300 #c05300 #0b7472
+$backgroundColors: #c2dc89 #88D0FF #ff6b6b #f38630 #12b8b5
+$textShadows: #9bbf0d #56BDFF #c05300 #c05300 #0b7472
 $hoverColors: #e0edc4 #dbf0ef #ffb3b3 #f7ac73 #a2f6f4
 
 article
@@ -386,7 +386,7 @@ article
 			&.color#{$i}
 				h2.post_title
 					background-color: $currentColor 
-					text-shadow: 0 2px 0 nth($textShadows, $i)
+					text-shadow: 0 2px 2px nth($textShadows, $i)
 					&::selection
 						background-color: #FFF
 						color: $currentColor

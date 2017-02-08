@@ -110,10 +110,11 @@ snd.addEventListener('playing', function(event) {
 	animate();
 }, false);
 
-if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
-	document.addEventListener('DOMContentLoaded', function() {
-		animate();
-	}, false);
+if (hasClass(document.getElementById("header"), "shouldAnimate")) {
+	if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
+		document.addEventListener('DOMContentLoaded', function() {
+			animate();
+		}, false);
+	}
+	snd.play();
 }
-
-snd.play();
