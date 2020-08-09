@@ -2,6 +2,7 @@ html {
 	background-color: #f9f9f9;
 	color: #222228;
 	margin: 0;
+	height: 100%;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,11 +14,12 @@ html {
 
 body {
 	margin: 0;
+	height: 100%;
 }
 
 .root {
 	width: 100vw;
-	height: 100vh;
+	height: 100%;
 	min-height: min-content;
 	display: flex;
 	flex-direction: column;
@@ -26,6 +28,7 @@ body {
 }
 
 .avatar-container {
+	padding-top: 20px;
 	position: relative;
 	width: fit-content;
 }
@@ -44,6 +47,7 @@ body {
 	line-height: 1.5em;
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-bottom: 20px;
 }
 
 .bio p a {
